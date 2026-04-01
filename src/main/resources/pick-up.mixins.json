@@ -1,0 +1,16 @@
+{
+	"required": true,
+	"package": "net.gamemode3.pickup.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"mixins": [
+		"PlayerInventoryInvoker",
+		"PlayerInventoryMixin",
+		"ServerPlayNetworkHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
